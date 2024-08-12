@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid teal;
+  margin: 10px;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  font-size: 20px;
+}
+.logo {
+  width: 180px;
+  height: 90px;
+}
+
+
+.card{
+
+  width: 200px;
+  border: 1px solid black;
+  margin: 5px;
+  margin-left: 10px;
+  padding: 15px;
+}
+
+.card>img{
+
+  width: 100%;
+  height: 180px;
+}
+
+.restrau-list{
+  display: flex;
+  flex-wrap: wrap;
+}
