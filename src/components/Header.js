@@ -8,7 +8,7 @@ export const Title = (
   </a>
 );
 
-const Header = function () {
+ export const Header = function () {
   return (
     <>
       <div className="header " style={{ backgroundColor: "burlywood" }}>
