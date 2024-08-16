@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 
-import {restrauList} from "./constants"
+// using React.createElement;
 // const heading1 = React.createElement(
 
 //   "h1",
@@ -48,9 +48,6 @@ import {restrauList} from "./constants"
 // );
 
 // config driven ui
-
-
-
 
 const AppLayout = () => {
   return (

@@ -1,3 +1,4 @@
+
 export const Title = (
   <a href="/">
     <img
@@ -9,6 +10,9 @@ export const Title = (
 );
 
  export const Header = function () {
+
+  
+
   return (
     <>
       <div className="header " style={{ backgroundColor: "burlywood" }}>
@@ -20,7 +24,8 @@ export const Title = (
             backgroundColor: "teal",
             color: "white",
           }}
-        >
+        >   
+      
           <ul>
             <li>Home</li>
             <li>About</li>

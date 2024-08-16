@@ -1,8 +1,9 @@
-const RestrauCard = ({ restraurant }) => {
-  console.log(restraurant);
+import Shimmer from "./Shimmer";
 
+const RestrauCard = ({ restraurant }) => {
   const { cloudinaryImageId, name, cuisines, costForTwo, avgRating, areaName } =
     restraurant.info;
+
   return (
     <>
       <div className="card">
@@ -12,12 +13,12 @@ const RestrauCard = ({ restraurant }) => {
             cloudinaryImageId
           }
         />
-        <h3>{name}</h3>
-        <h4>{cuisines.join(", ")}</h4>
-        <h4>{costForTwo} </h4>
+        <h3 className="name">{name}</h3>
+        <h4 className="cuisines">{cuisines.join(", ")}</h4>
+        <h4 className="costForTwo">{costForTwo} </h4>
 
         <h4>{avgRating} stars</h4>
-        <h4 className="h4" style={{ textAlign: "center" }}>
+        <h4 className="h4" style={{ marginBottom: "2px" }}>
           {areaName}
         </h4>
       </div>
